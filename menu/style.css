@@ -1,0 +1,205 @@
+/* Manrope */
+.manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Inter */
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style untuk header */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+header .header-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+header .header-wrapper a .logo {
+  width: 88px;
+  height: 38px;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/11/Logo-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .header-wrapper nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header .header-wrapper nav a:hover {
+  color: #006041;
+}
+
+/* Style untuk footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+footer .footer-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+  gap: 64px;
+}
+
+footer .footer-wrapper .logo {
+  width: 150px;
+  min-width: 150px;
+  height: 50px;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/11/Logo-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .footer-wrapper .customer-info {
+  display: flex;
+  gap: 46px;
+}
+
+footer .footer-wrapper .customer-info .customer-center {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer .footer-wrapper .customer-info .customer-center .title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #006041;
+}
+footer .footer-wrapper .customer-info .customer-center .desc {
+  font-size: 14px;
+  color: #969ba2;
+}
+
+footer .footer-wrapper .customer-info .customer-complain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer .footer-wrapper .customer-info .customer-complain .title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #006041;
+}
+footer .footer-wrapper .customer-info .customer-complain .desc {
+  font-size: 14px;
+  color: #969ba2;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 64px 0;
+}
+
+main .main-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-wrapper .image-1 {
+  width: 100%;
+  max-width: 444px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://static.fore.coffee/product/Americano%20Iced.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+main .main-wrapper .image-2 {
+  width: 100%;
+  max-width: 444px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://static.fore.coffee/product/Manuka%20Americano%20Iced.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+main .main-wrapper .image-3 {
+  width: 100%;
+  max-width: 444px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://static.fore.coffee/product/Triple%20Peach%20Americano%20(1).jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+main .main-wrapper .image-4 {
+  width: 100%;
+  max-width: 444px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://static.fore.coffee/product/Bumi%20Latte%20-%20RTD.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+main .main-wrapper .image-5 {
+  width: 100%;
+  max-width: 444px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://static.fore.coffee/product/Kopi%20dari%20Tani%20-%20RTD.jpg');
+  background-size: contain;
+  background-position: center;
+}
+
+main .main-wrapper .name {
+  margin-top: 24px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #006041;
+}
+
+main .main-wrapper .desc {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #969ba2;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 64px 0;
+}
+
+main .main-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-wrapper .page-wellcome {
+  width: 100%;
+  aspect-ratio: 16/5;
+  background-image: url('https://fore.coffee/wp-content/uploads/2024/11/fore-header-banner.png');
+  background-size: cover;
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  color: #fff;
+}
+
+main .main-wrapper .page-wellcome .title {
+  font-size: 32px;
+  font-weight: 700;
+}

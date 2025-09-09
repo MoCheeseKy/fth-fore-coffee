@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/keranjang.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inter header-wrapper">
+        <a href="/home.html">
+          <div class="logo"></div>
+        </a>
+        <nav class="navbar">
+          <a href="/home.html">Beranda</a>
+          <a href="/menu.html">Menu</a>
+          <a href="/lokasi.html">Lokasi</a>
+          <a href="/kontak.html">Kontak</a>
+          <a
+            style="padding: 8px 24px; border-radius:8px; background-color: #006041; color: #fff"
+            href="/keranjang.html"
+            >Keranjang</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrapper">
+        <div class="page-wellcome">
+          <div class="title manrope">Keranjang</div>
+          <div class="desc inter">
+            Semua pesanan kamu ada disini. Harap isi data sebelum checkout!.
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <div class="order-and-checkout">
+          <div class="order">
+            <div class="title manrope">Pesanan Kamu</div>
+            <div class="order-list inter">
+              <div class="order-item">
+                <div class="order-desc">
+                  <div class="name">Kopi Dari Tani 1L</div>
+                  <div class="price">Rp84.000</div>
+                </div>
+                <button>Hapus</button>
+              </div>
+              <div class="order-item">
+                <div class="order-desc">
+                  <div class="name">Iced Bumi Latte 1L</div>
+                  <div class="price">Rp84.000</div>
+                </div>
+                <button>Hapus</button>
+              </div>
+            </div>
+          </div>
+          <div class="checkout">
+            <div class="title manrope">Detail Pemesan</div>
+            <form class="inter" action="">
+              <input type="text" placeholder="Nama Lengkap" />
+              <input type="text" placeholder="Nomor Telepon" />
+              <textarea placeholder="Alamat Lengkap"></textarea>
+              <textarea placeholder="Note Pesanan"></textarea>
+              <div class="button-wrapper">
+                <p>Total: Rp168.000</p>
+                <button type="submit">Checkout</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="logo"></div>
+        <div class="customer-info">
+          <div class="customer-center">
+            <div class="title manrope">Customer Center</div>
+            <div class="desc inter">
+              Gedung Graha Ganesha Lantai 1 Suite 120 & 130. Jl. Hayam Wuruk No.
+              28, Kelurahan Kebon Klapa, Kecamatan Gambir, Jakarta Pusat, DKI
+              Jakarta
+            </div>
+          </div>
+          <div class="customer-complain">
+            <div class="title manrope">Consumer Complaints</div>
+            <div class="desc inter">
+              WhatsApp Ditjen PKTN: <b>0853-1111-1010</b>. Directorate General
+              of Consumer Protection and Trade Compliance, Ministry of Trade of
+              the Republic of Indonesia
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/cart.js"></script>
+    <script>
+      // Render cart ketika halaman keranjang dibuka
+      renderCart();
+
+      // Checkout
+      document.querySelector("form").addEventListener("submit", handleCheckout);
+    </script>
+  </body>
+</html>

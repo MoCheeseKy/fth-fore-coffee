@@ -1,0 +1,168 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 64px 0;
+}
+
+main .main-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-wrapper .hero {
+  width: 100%;
+  aspect-ratio: 1170/230;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/10/Frame-48096650-2048x404.png');
+  background-size: contain;
+}
+
+main .main-wrapper .americano-series {
+  width: 100%;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .main-wrapper .americano-series .title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #006041;
+}
+
+main .main-wrapper .americano-series .menu-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+main .main-wrapper .americano-series .menu-grid .menu-item {
+  display: flex;
+  gap: 16px;
+  border: none;
+  background-color: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-image {
+  aspect-ratio: 1/1;
+  width: 186px;
+  min-width: 186px;
+  background-color: #000;
+  border-radius: 16px;
+}
+
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-image.menu-image-1 {
+  background-image: url('https://static.fore.coffee/product/Americano%20Iced.jpg');
+  background-size: cover;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-image.menu-image-2 {
+  background-image: url('https://static.fore.coffee/product/Manuka%20Americano%20Iced.jpg');
+  background-size: cover;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-image.menu-image-3 {
+  background-image: url('https://static.fore.coffee/product/Triple%20Peach%20Americano%20(1).jpg');
+  background-size: cover;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-image.menu-image-4 {
+  background-image: url('https://static.fore.coffee/product/Kopi%20dari%20Tani%20-%20RTD.jpg');
+  background-size: cover;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-image.menu-image-5 {
+  background-image: url('https://static.fore.coffee/product/Bumi%20Latte%20-%20RTD.jpg');
+  background-size: cover;
+}
+
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-info .name {
+  font-size: 20px;
+  font-weight: 700;
+}
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-info .price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #006041;
+}
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-info .desc {
+  max-width: 90%;
+  font-size: 16px;
+  color: #969ba2;
+}
+main .main-wrapper .americano-series .menu-grid .menu-item .menu-info .button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 12px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-info
+  .button
+  button {
+  border: none;
+  background-color: #fff;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-info
+  .button
+  a:hover {
+  color: #006041;
+}
+main
+  .main-wrapper
+  .americano-series
+  .menu-grid
+  .menu-item
+  .menu-info
+  .button
+  button:hover {
+  color: #006041;
+}

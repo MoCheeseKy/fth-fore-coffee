@@ -1,0 +1,98 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 64px 0;
+}
+
+main .main-wrapper {
+  width: 100%;
+  max-width: 966px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-wrapper .page-wellcome {
+  width: 100%;
+  aspect-ratio: 16/5;
+  background-image: url('https://fore.coffee/wp-content/uploads/2024/11/fore-header-banner.png');
+  background-size: cover;
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  color: #fff;
+}
+
+main .main-wrapper .page-wellcome .title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+main .main-wrapper .our-story {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .main-wrapper .our-story .title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #006041;
+}
+main .main-wrapper .our-story .desc {
+  font-size: 16px;
+  color: #969ba2;
+}
+
+main .main-wrapper .our-promo {
+  width: 100%;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .main-wrapper .our-promo .title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #006041;
+}
+
+main .main-wrapper .our-promo .promo-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+main .main-wrapper .our-promo .promo-grid .promo-item-1 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/11/appbanner1-1.jpg.webp');
+  background-size: cover;
+  background-position: center;
+}
+main .main-wrapper .our-promo .promo-grid .promo-item-2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/11/appbanner3-1.jpg.webp');
+  background-size: cover;
+  background-position: center;
+}
+main .main-wrapper .our-promo .promo-grid .promo-item-3 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+  background-image: url('https://fore.coffee/wp-content/uploads/2023/11/2-08-1_11zon-2048x2048.jpg');
+  background-size: cover;
+  background-position: center;
+}
