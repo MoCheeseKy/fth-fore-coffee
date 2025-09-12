@@ -18,7 +18,7 @@ main .main-wrapper {
 main .main-wrapper .page-wellcome {
   width: 100%;
   aspect-ratio: 16/5;
-  background-image: url('https://fore.coffee/wp-content/uploads/2024/11/fore-header-banner.png');
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
   background-size: cover;
   border-radius: 0px 0px 16px 16px;
   display: flex;
@@ -26,7 +26,7 @@ main .main-wrapper .page-wellcome {
   align-items: center;
   flex-direction: column;
   gap: 16px;
-  color: #fff;
+  color: #4a2632;
 }
 
 main .main-wrapper .page-wellcome .title {
@@ -51,7 +51,7 @@ main .main-wrapper .order-and-checkout .order {
 main .main-wrapper .order-and-checkout .order .title {
   font-size: 48px;
   font-weight: 700;
-  color: #006041;
+  color: #4a2632;
 }
 
 main .main-wrapper .order-and-checkout .order .order-list {
@@ -63,12 +63,13 @@ main .main-wrapper .order-and-checkout .order .order-list {
 main .main-wrapper .order-and-checkout .order .order-list .order-item {
   padding: 16px;
   border-radius: 16px;
-  background-color: #ddd;
+  background-color: #4a2632;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
+  color: white;
 }
 
 main .main-wrapper .order-and-checkout .order .order-list .order-item .name {
@@ -78,7 +79,7 @@ main .main-wrapper .order-and-checkout .order .order-list .order-item .name {
 }
 main .main-wrapper .order-and-checkout .order .order-list .order-item .price {
   font-size: 16px;
-  color: #006041;
+  color: white;
 }
 
 main .main-wrapper .order-and-checkout .order .order-list .order-item button {
@@ -101,7 +102,7 @@ main .main-wrapper .order-and-checkout .checkout {
 main .main-wrapper .order-and-checkout .checkout .title {
   font-size: 48px;
   font-weight: 700;
-  color: #006041;
+  color: #4a2632;
 }
 
 main .main-wrapper .order-and-checkout .checkout form {
@@ -133,13 +134,13 @@ main .main-wrapper .order-and-checkout .checkout form .button-wrapper {
 
 main .main-wrapper .order-and-checkout .checkout form .button-wrapper p {
   font-size: 20px;
-  color: #006041;
+  color: #4a2632;
   margin-bottom: 8px;
 }
 
 main .main-wrapper .order-and-checkout .checkout form .button-wrapper button {
   border: none;
-  background-color: #006041;
+  background-color: #4a2632;
   color: #fff;
   width: 100%;
   text-align: center;

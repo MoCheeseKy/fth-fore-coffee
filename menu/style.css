@@ -55,7 +55,7 @@ header .header-wrapper nav {
 }
 
 header .header-wrapper nav a:hover {
-  color: #006041;
+  color: #4a2632;
 }
 
 /* Style untuk footer */
@@ -100,11 +100,11 @@ footer .footer-wrapper .customer-info .customer-center {
 footer .footer-wrapper .customer-info .customer-center .title {
   font-size: 18px;
   font-weight: 700;
-  color: #006041;
+  color: #4a2632;
 }
 footer .footer-wrapper .customer-info .customer-center .desc {
   font-size: 14px;
-  color: #969ba2;
+  color: #a08986;
 }
 
 footer .footer-wrapper .customer-info .customer-complain {
@@ -116,11 +116,11 @@ footer .footer-wrapper .customer-info .customer-complain {
 footer .footer-wrapper .customer-info .customer-complain .title {
   font-size: 18px;
   font-weight: 700;
-  color: #006041;
+  color: #4a2632;
 }
 footer .footer-wrapper .customer-info .customer-complain .desc {
   font-size: 14px;
-  color: #969ba2;
+  color: #a08986;
 }
 
 main {
@@ -145,7 +145,7 @@ main .main-wrapper .image-1 {
   max-width: 444px;
   aspect-ratio: 1/1;
   border-radius: 16px;
-  background-image: url('https://static.fore.coffee/product/Americano%20Iced.jpg');
+  background-image: url('https://static.fore.coffee/product/espresso173.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -155,7 +155,7 @@ main .main-wrapper .image-2 {
   max-width: 444px;
   aspect-ratio: 1/1;
   border-radius: 16px;
-  background-image: url('https://static.fore.coffee/product/Manuka%20Americano%20Iced.jpg');
+  background-image: url('https://static.fore.coffee/product/espresso173.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -165,7 +165,7 @@ main .main-wrapper .image-3 {
   max-width: 444px;
   aspect-ratio: 1/1;
   border-radius: 16px;
-  background-image: url('https://static.fore.coffee/product/Triple%20Peach%20Americano%20(1).jpg');
+  background-image: url('https://static.fore.coffee/product/espresso173.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -175,7 +175,7 @@ main .main-wrapper .image-4 {
   max-width: 444px;
   aspect-ratio: 1/1;
   border-radius: 16px;
-  background-image: url('https://static.fore.coffee/product/Bumi%20Latte%20-%20RTD.jpg');
+  background-image: url('https://static.fore.coffee/product/espresso173.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -185,7 +185,7 @@ main .main-wrapper .image-5 {
   max-width: 444px;
   aspect-ratio: 1/1;
   border-radius: 16px;
-  background-image: url('https://static.fore.coffee/product/Kopi%20dari%20Tani%20-%20RTD.jpg');
+  background-image: url('https://static.fore.coffee/product/espresso173.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -194,12 +194,12 @@ main .main-wrapper .name {
   margin-top: 24px;
   font-size: 64px;
   font-weight: 700;
-  color: #006041;
+  color: #4a2632;
 }
 
 main .main-wrapper .desc {
   margin-top: 20px;
   font-size: 16px;
-  color: #969ba2;
+  color: #a08986;
   text-align: center;
 }

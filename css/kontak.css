@@ -18,7 +18,7 @@ main .main-wrapper {
 main .main-wrapper .page-wellcome {
   width: 100%;
   aspect-ratio: 16/5;
-  background-image: url('https://fore.coffee/wp-content/uploads/2024/11/fore-header-banner.png');
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
   background-size: cover;
   border-radius: 0px 0px 16px 16px;
   display: flex;
@@ -26,7 +26,7 @@ main .main-wrapper .page-wellcome {
   align-items: center;
   flex-direction: column;
   gap: 16px;
-  color: #fff;
+  color: #4a2632;
 }
 
 main .main-wrapper .page-wellcome .title {
